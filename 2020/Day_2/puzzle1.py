@@ -4,10 +4,10 @@ with open("day2_input.txt", "r") as f:
 amountValidated = 0
 
 for line in passwordLines:
-    [policy, password] = line.split(':')
+    [policy, password] = line.split(":")
 
     [range, char] = policy.split(" ")
-    [min, max] = range.split('-')
+    [min, max] = list(map(int, range.split("-")))
 
     count = 0
 
@@ -15,7 +15,7 @@ for line in passwordLines:
         if (letter == char): 
             count += 1
     
-    if (count >= int(min) and count <= int(max)):
+    if (count >= min and count <= max):
         amountValidated += 1
 
 print(amountValidated)

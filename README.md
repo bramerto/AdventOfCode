@@ -1,2 +1,2 @@
 # AdventOfCode
-The AdventOfCode event repo for me
+The AdventOfCode event repo

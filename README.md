@@ -1,2 +1,4 @@
 # AdventOfCode
-The AdventOfCode event repo for me
+https://adventofcode.com/
+
+The AdventOfCode event repo.
